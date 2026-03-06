@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "notes": {
+      "command": "/Users/vinodv/projects/AI/notes/.venv/bin/python",
+      "args": ["/Users/vinodv/projects/AI/notes/mcp_notes_server.py"]
+    }
+  }
+}

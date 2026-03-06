@@ -1,0 +1,36 @@
+site_name: My Notes
+site_description: Notes organized by topics
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+  features:
+  - navigation.indexes
+  - search.suggest
+nav:
+- Home: index.md
+- Programming:
+  - programming/index.md
+  - Python Basics: programming/python-basics.md
+  - JavaScript Tips: programming/javascript-tips.md
+  - Go Programming Tips: programming/go-tips.md
+- DevOps:
+  - devops/index.md
+  - Docker Guide: devops/docker-guide.md
+  - CI CD Pipeline: devops/ci-cd-pipeline.md
+- Database:
+  - database/index.md
+  - SQL Fundamentals: database/sql-fundamentals.md
+  - NoSQL Concepts: database/nosql-concepts.md
+- Cloud:
+  - cloud/index.md
+  - AWS Services: cloud/aws-services.md
+  - Azure Basics: cloud/azure-basics.md
+markdown_extensions:
+- toc:
+    permalink: true
+- admonition
+- pymdownx.highlight
+- pymdownx.superfences
